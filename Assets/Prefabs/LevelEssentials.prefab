@@ -214,6 +214,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   _cameraHolder: {fileID: 8054438384018747894}
+  BaseWeapons:
+    m_keys: []
+    m_values: []
 --- !u!1 &7539315591280306320
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +317,10 @@ PrefabInstance:
       propertyPath: _cameraHolder
       value: 
       objectReference: {fileID: 8054438384018747894}
+    - target: {fileID: 4191706959815657237, guid: cc71df596373bc84daa8556bc4217b60, type: 3}
+      propertyPath: _currentState
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc71df596373bc84daa8556bc4217b60, type: 3}
 --- !u!4 &4316913363731673186 stripped
@@ -376,6 +383,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 8054438385063484985}
+    - target: {fileID: 5160405145700384145, guid: 3ad7fa26058333849803363502f4ad5c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160405145700384145, guid: 3ad7fa26058333849803363502f4ad5c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7859421333367237282, guid: 3ad7fa26058333849803363502f4ad5c, type: 3}
       propertyPath: m_Name
       value: UI

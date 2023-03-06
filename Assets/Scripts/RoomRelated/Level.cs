@@ -66,6 +66,7 @@ public class Level : MonoBehaviour
         if (e.RevertType == OnPlayerStateRevertArgs.PlayerRevertType.LevelStart) {
             _currentRoom = _rooms[0];
             _previousRoom = null;
+            _planningRoom = null;
             DestroyWeapons();
             InitializeWeapons();
         } else {
